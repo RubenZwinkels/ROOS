@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.4 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.4">
   <diagram name="Pagina-1" id="6q9Ct5GJYTRPfvLkY-PJ">
-    <mxGraphModel dx="1469" dy="1776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1939" dy="2067" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -139,65 +139,23 @@
             <mxPoint x="260" y="184" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5AzXgrAlljaWgZERE3ZI-1" value="PlaceContext&lt;div&gt;&amp;lt;DbContext&amp;gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="-220" width="160" height="66" as="geometry" />
+        <mxCell id="5AzXgrAlljaWgZERE3ZI-20" value="AppContext&lt;div&gt;&amp;lt;DbContext&amp;gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="-280" width="160" height="232" as="geometry" />
         </mxCell>
-        <mxCell id="5AzXgrAlljaWgZERE3ZI-2" value="+ DbSet&amp;lt;Place&amp;gt; Places" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5AzXgrAlljaWgZERE3ZI-1">
+        <mxCell id="5AzXgrAlljaWgZERE3ZI-9" value="+ DbSet&amp;lt;Tag&amp;gt; Tags&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5AzXgrAlljaWgZERE3ZI-20">
           <mxGeometry y="40" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="5AzXgrAlljaWgZERE3ZI-6" value="TransactionContext&lt;div&gt;&amp;lt;DbContext&amp;gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="140" width="160" height="80" as="geometry" />
+        <mxCell id="5AzXgrAlljaWgZERE3ZI-2" value="+ DbSet&amp;lt;Place&amp;gt; Places" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5AzXgrAlljaWgZERE3ZI-20">
+          <mxGeometry y="66" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="5AzXgrAlljaWgZERE3ZI-7" value="+ DbSet&amp;lt;Transaction&amp;gt; Transactions&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5AzXgrAlljaWgZERE3ZI-6">
-          <mxGeometry y="40" width="160" height="40" as="geometry" />
+        <mxCell id="5AzXgrAlljaWgZERE3ZI-12" value="+ DbSet&amp;lt;CustomColor&amp;gt; CustomColors&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5AzXgrAlljaWgZERE3ZI-20">
+          <mxGeometry y="92" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5AzXgrAlljaWgZERE3ZI-8" value="TagContext&lt;div&gt;&amp;lt;DbContext&amp;gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="-40" width="160" height="66" as="geometry" />
+        <mxCell id="5AzXgrAlljaWgZERE3ZI-7" value="+ DbSet&amp;lt;Transaction&amp;gt; Transactions&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5AzXgrAlljaWgZERE3ZI-20">
+          <mxGeometry y="142" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5AzXgrAlljaWgZERE3ZI-9" value="+ DbSet&amp;lt;Tag&amp;gt; Tags&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5AzXgrAlljaWgZERE3ZI-8">
-          <mxGeometry y="40" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="5AzXgrAlljaWgZERE3ZI-11" value="&lt;div&gt;CustomColorContext&lt;/div&gt;&lt;div&gt;&amp;lt;DbContext&amp;gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="272" width="160" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="5AzXgrAlljaWgZERE3ZI-12" value="+ DbSet&amp;lt;CustomColor&amp;gt; CustomColors&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5AzXgrAlljaWgZERE3ZI-11">
-          <mxGeometry y="40" width="160" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="5AzXgrAlljaWgZERE3ZI-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="5AzXgrAlljaWgZERE3ZI-11" target="L_b7BaTxaajNw3vjl_Nh-19">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="760" y="280" as="sourcePoint" />
-            <mxPoint x="810" y="230" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5AzXgrAlljaWgZERE3ZI-14" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="L_b7BaTxaajNw3vjl_Nh-12" target="5AzXgrAlljaWgZERE3ZI-8">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="568" y="282" as="sourcePoint" />
-            <mxPoint x="564" y="240" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5AzXgrAlljaWgZERE3ZI-15" value="CategoryContext&lt;div&gt;&amp;lt;DbContext&amp;gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="570" width="160" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="5AzXgrAlljaWgZERE3ZI-16" value="+ DbSet&amp;lt;Category&amp;gt; Categories&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5AzXgrAlljaWgZERE3ZI-15">
-          <mxGeometry y="40" width="160" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="5AzXgrAlljaWgZERE3ZI-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="5AzXgrAlljaWgZERE3ZI-15" target="L_b7BaTxaajNw3vjl_Nh-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-260" y="520" as="sourcePoint" />
-            <mxPoint x="-210" y="470" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5AzXgrAlljaWgZERE3ZI-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="5AzXgrAlljaWgZERE3ZI-6" target="L_b7BaTxaajNw3vjl_Nh-5">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-130" y="120" as="sourcePoint" />
-            <mxPoint x="-80" y="70" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5AzXgrAlljaWgZERE3ZI-19" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="L_b7BaTxaajNw3vjl_Nh-28" target="5AzXgrAlljaWgZERE3ZI-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-250" y="-230" as="sourcePoint" />
-            <mxPoint x="-200" y="-280" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="5AzXgrAlljaWgZERE3ZI-16" value="+ DbSet&amp;lt;Category&amp;gt; Categories&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5AzXgrAlljaWgZERE3ZI-20">
+          <mxGeometry y="182" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
