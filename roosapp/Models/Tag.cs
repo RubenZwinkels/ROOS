@@ -5,9 +5,9 @@ namespace roosapp.models
 
         public Guid Id { get; set; }
         public string name { get; set; }
-        public Color color { get; set; }
+        public CustomColor color { get; set; }
 
-        public Tag(string name, Color color)
+        public Tag(string name, CustomColor color)
         {
             this.name = name;
             this.color = color;
@@ -18,7 +18,7 @@ namespace roosapp.models
         public Tag(string name, string colorName, string colorHex)
         {
             this.name = name;
-            this.color = new Color(colorName, colorHex);
+            this.color = new CustomColor(colorName, colorHex);
         }
     }
 }
