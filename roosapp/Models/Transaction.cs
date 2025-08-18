@@ -6,9 +6,9 @@ namespace roosapp.models
         public decimal amount { get; set; }
         public DateOnly date { get; set; }
         public string title { get; set; }
-        public Place place { get; set; }    // TODO place maken en importen
-        public List<Tag> tags { get; set; } // TODO tag maken en importen
-				public Category category { get; set; } // TODO category maken en importen
+        public Place? place { get; set; }
+        public List<Tag>? tags { get; set; }
+				public Category category { get; set; }
 
         public Transaction(decimal amount, DateOnly date, string title, Place place, List<Tag> tags, Category category)
         {

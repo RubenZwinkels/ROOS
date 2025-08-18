@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.4 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.4">
   <diagram name="Pagina-1" id="6q9Ct5GJYTRPfvLkY-PJ">
-    <mxGraphModel dx="1939" dy="2067" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="1914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,10 +34,10 @@
         <mxCell id="L_b7BaTxaajNw3vjl_Nh-16" value="+ String title" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="L_b7BaTxaajNw3vjl_Nh-5" vertex="1">
           <mxGeometry y="104" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="L_b7BaTxaajNw3vjl_Nh-10" value="+ Place place" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="L_b7BaTxaajNw3vjl_Nh-5" vertex="1">
+        <mxCell id="L_b7BaTxaajNw3vjl_Nh-10" value="+ Place? place" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="L_b7BaTxaajNw3vjl_Nh-5" vertex="1">
           <mxGeometry y="130" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="L_b7BaTxaajNw3vjl_Nh-11" value="+ List&amp;lt;Tag&amp;gt; tags" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="L_b7BaTxaajNw3vjl_Nh-5" vertex="1">
+        <mxCell id="L_b7BaTxaajNw3vjl_Nh-11" value="+ List&amp;lt;Tag&amp;gt;? tags" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="L_b7BaTxaajNw3vjl_Nh-5" vertex="1">
           <mxGeometry y="156" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="L_b7BaTxaajNw3vjl_Nh-49" value="+ Category category" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="L_b7BaTxaajNw3vjl_Nh-5" vertex="1">
@@ -68,7 +68,7 @@
           <mxGeometry y="192" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="L_b7BaTxaajNw3vjl_Nh-17" value="een transactie heeft een titel en locatie waar het geld is uitgegeven.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Een transactie kan meerdere tags hebben (bijv. eten en date). Een transactie kan 1 potje hebben.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="-340" y="60" width="120" height="160" as="geometry" />
+          <mxGeometry x="-135" y="85" width="120" height="160" as="geometry" />
         </mxCell>
         <mxCell id="L_b7BaTxaajNw3vjl_Nh-19" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;CustomColor&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="112" width="160" height="106" as="geometry" />
@@ -156,6 +156,45 @@
         </mxCell>
         <mxCell id="5AzXgrAlljaWgZERE3ZI-16" value="+ DbSet&amp;lt;Category&amp;gt; Categories&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5AzXgrAlljaWgZERE3ZI-20">
           <mxGeometry y="182" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5AzXgrAlljaWgZERE3ZI-22" value="DataService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="-720" width="200" height="472" as="geometry" />
+        </mxCell>
+        <mxCell id="5AzXgrAlljaWgZERE3ZI-23" value="- RO DataContext context" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5AzXgrAlljaWgZERE3ZI-22">
+          <mxGeometry y="26" width="200" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="5AzXgrAlljaWgZERE3ZI-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="5AzXgrAlljaWgZERE3ZI-22">
+          <mxGeometry y="60" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="5AzXgrAlljaWgZERE3ZI-24" value="+ saveTransaction(Transaction): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5AzXgrAlljaWgZERE3ZI-22">
+          <mxGeometry y="68" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5AzXgrAlljaWgZERE3ZI-31" value="+ getTransactionById(Guid id): Transaction" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5AzXgrAlljaWgZERE3ZI-22">
+          <mxGeometry y="108" width="200" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="5AzXgrAlljaWgZERE3ZI-25" value="+ saveCategory(Category): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5AzXgrAlljaWgZERE3ZI-22">
+          <mxGeometry y="152" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5AzXgrAlljaWgZERE3ZI-32" value="+ getCategory(Guid id): Category" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5AzXgrAlljaWgZERE3ZI-22">
+          <mxGeometry y="192" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5AzXgrAlljaWgZERE3ZI-26" value="+ saveTag(Tag): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5AzXgrAlljaWgZERE3ZI-22">
+          <mxGeometry y="232" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5AzXgrAlljaWgZERE3ZI-33" value="+ getTagById(Guid): Tag" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5AzXgrAlljaWgZERE3ZI-22">
+          <mxGeometry y="272" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5AzXgrAlljaWgZERE3ZI-27" value="+ saveCustomColor(CustomColor): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5AzXgrAlljaWgZERE3ZI-22">
+          <mxGeometry y="312" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5AzXgrAlljaWgZERE3ZI-34" value="+ getCustomColorById(Guid id): CustomColor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5AzXgrAlljaWgZERE3ZI-22">
+          <mxGeometry y="352" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5AzXgrAlljaWgZERE3ZI-28" value="+ savePlace(Place): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5AzXgrAlljaWgZERE3ZI-22">
+          <mxGeometry y="392" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5AzXgrAlljaWgZERE3ZI-35" value="+ getPlaceById(Guid id): Place" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5AzXgrAlljaWgZERE3ZI-22">
+          <mxGeometry y="432" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
