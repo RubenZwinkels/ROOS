@@ -21,8 +21,12 @@ public static class MauiProgram
 #if DEBUG
         builder.Logging.AddDebug();
 #endif
+        // DbContext
         builder.Services.AddDbContext<DataContext>(options =>
             options.UseSqlite($"Data Source={Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "dataContext.db")}"));
+
+        // DataService registreren
+        builder.Services.AddScoped<DataService>();
 
         return builder.Build();
     }
